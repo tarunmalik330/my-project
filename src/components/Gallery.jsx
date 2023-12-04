@@ -22,11 +22,11 @@ const Gallery = () => {
           <div className=" flex flex-row flex-wrap items-center">
             <div className="lg:w-3/6 w-full flex flex-col items-center md:gap-36 gap-12">
               <div data-aos="zoom-in-right">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c]">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
                   <img
                     src={LivingRoom}
                     alt="LivingRoom"
-                    className=" rounded-[16px]"
+                    className=" rounded-[16px] hover:scale-[1.01] transition-all duration-300 ease-linear"
                   />
                 </div>
                 <h4 className="leading-[139.286%] pt-[17px] font-semibold text-[28px] bg-clip-text text-transparent bg-gradient-to-b from-[#FD749B] to-[#281AC8]">
@@ -34,11 +34,11 @@ const Gallery = () => {
                 </h4>
               </div>
               <div data-aos="zoom-in-right">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c]">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
                   <img
                     src={Kitchen}
                     alt="Kitchen"
-                    className=" rounded-[16px]"
+                    className=" rounded-[16px] hover:scale-[1.01] transition-all duration-300 ease-linear"
                   />
                 </div>
                 <h4 className="leading-[139.286%] pt-[17px] font-semibold text-[28px] bg-clip-text text-transparent bg-gradient-to-b from-[#FD749B] to-[#281AC8]">
@@ -51,19 +51,23 @@ const Gallery = () => {
                 className="md:pt-[112px] pt-[48px] lg:pt-0"
                 data-aos="zoom-in-left"
               >
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c]">
-                  <img src={Office} alt="Office" className=" rounded-[16px]" />
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
+                  <img
+                    src={Office}
+                    alt="Office"
+                    className=" rounded-[16px] hover:scale-[1.01] transition-all duration-300 ease-linear"
+                  />
                 </div>
                 <h4 className="leading-[139.286%] pt-[17px] font-semibold text-[28px] bg-clip-text text-transparent bg-gradient-to-b from-[#FD749B] to-[#281AC8]">
                   Office
                 </h4>
               </div>
               <div data-aos="zoom-in-left">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c]">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
                   <img
                     src={BathImg}
                     alt="BathImg"
-                    className=" rounded-[16px]"
+                    className=" rounded-[16px] hover:scale-[1.01] transition-all duration-300 ease-linear"
                   />
                 </div>
                 <h4 className="leading-[139.286%] pt-[17px] font-semibold text-[28px] bg-clip-text text-transparent bg-gradient-to-b from-[#FD749B] to-[#281AC8]">
@@ -71,11 +75,11 @@ const Gallery = () => {
                 </h4>
               </div>
               <div data-aos="zoom-in-left">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c]">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
                   <img
                     src={BedRoom}
                     alt="BedRoom"
-                    className=" rounded-[16px]"
+                    className=" rounded-[16px] hover:scale-[1.01] transition-all duration-300 ease-linear"
                   />
                 </div>
                 <h4 className="leading-[139.286%] pt-[17px] font-semibold text-[28px] bg-clip-text text-transparent bg-gradient-to-b from-[#FD749B] to-[#281AC8]">

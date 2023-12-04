@@ -40,7 +40,7 @@ const Interior = () => {
           alt="Layer2"
           className="absolute xl:top-[-10%] md:top-[-7%] top-[-2%] w-full"
         />
-        <div className="container mx-auto lg:pt-[250px] lg:pb-[300px] pt-[100px] pb-[100px] px-6 lg:px-0">
+        <div className="container mx-auto lg:pt-[250px] lg:pb-[300px] pt-[100px] pb-[100px] px-6 xl:px-0">
           <Slider {...settings} className="lg:py-11 py-0">
             <div className="px-6 md:px-0">
               <div className="slide_card bg-white xl:py-[28px] py-[18px] xl:px-[46px] px-[16px] rounded-2xl transition-all duration-300 ease-linear cursor-pointer group">

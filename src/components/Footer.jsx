@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <>
       <div className="bg-gradient-to-b from-[#CC33D9] to-[#021A38]">
-        <div className="container mx-auto px-6 md:px-0">
-          <div className="flex flex-wrap mx-auto py-[69px] lg:gap-40 gap-11">
+        <div className="container mx-auto px-6 xl:px-0">
+          <div className="flex flex-wrap mx-auto py-[69px] lg:gap-40 gap-11 items-center">
             <div className="lg:w-4/12 flex items-center flex-col">
               <div>
                 <img src={FooterLogo} alt="FooterLogo" className="pb-[8px]" />

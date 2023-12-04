@@ -22,7 +22,7 @@ const CreatingHome = () => {
             add Link{" "}
           </p>
         </div>
-        <div className="container mx-auto px-6 md:px-0 pt-[180px] pb-[45px]">
+        <div className="container mx-auto px-6 xl:px-0 pt-[180px] pb-[45px]">
           <div className="xl:flex items-center justify-between">
             <div
               className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:mb-0 mb-6"

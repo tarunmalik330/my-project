@@ -6,7 +6,7 @@ const AboutUs = () => {
     <>
       <div
         id="About"
-        className="container mx-auto pt-9 pb-5 z-[1] relative px-6 md:px-0"
+        className="container mx-auto pt-9 pb-5 z-[1] relative px-6 xl:px-0"
       >
         <div className="flex justify-center items-center lg:flex-row flex-col mx-auto flex-wrap">
           <div className="lg:w-5/12 w-full px-3 flex items-center justify-center">
