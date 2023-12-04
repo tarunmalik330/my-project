@@ -4,7 +4,10 @@ import DifferentColors from "../assets/images/webp/DifferentColors.webp";
 const AboutUs = () => {
   return (
     <>
-      <div id="About" className="container mx-auto pt-9 pb-5 z-[1] relative">
+      <div
+        id="About"
+        className="container mx-auto pt-9 pb-5 z-[1] relative px-6 md:px-0"
+      >
         <div className="flex justify-center items-center lg:flex-row flex-col mx-auto flex-wrap">
           <div className="lg:w-5/12 w-full px-3 flex items-center justify-center">
             <img
@@ -13,7 +16,7 @@ const AboutUs = () => {
               data-aos="fade-right"
             />
           </div>
-          <div className="lg:w-7/12 w-full px-3 flex justify-center ">
+          <div className="lg:w-7/12 w-full px-3 flex justify-center pt-4 md:pt-0">
             <div>
               <h2
                 className="text-[32px] font-bold ff_poppins bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-fuchsia-600 pb-7"

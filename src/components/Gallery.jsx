@@ -15,7 +15,7 @@ const Gallery = () => {
           alt="Layer3"
           className=" absolute xl:top-[-16%] lg:top-[-12%] sm:top-[-4%] top-[-3%] w-full"
         />
-        <div className="container mx-auto px-10 relative z-[1]">
+        <div className="container mx-auto xl:px-[96px] px-4 relative z-[1]">
           <h2 className="text-[32px] font-bold ff_poppins bg-clip-text text-transparent bg-gradient-to-b from-rose-400 to-fuchsia-600 pb-[92px] text-center relative z-[1]">
             Gallery
           </h2>

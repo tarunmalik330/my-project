@@ -64,7 +64,7 @@ const SatisfiedClients = () => {
               >
                 <div className=" bg-[#C4C4C4] cursor-pointer relative rounded-[15px] max-w-[410px]  w-full py-[18px] ps-6">
                   <p className="ff_poppins text-[16px] font-normal text-[#333] pb-[5px]">
-                    Neya from Goa
+                    Pooja from UP
                   </p>
                   <Stars />
                   <h6 className=" text-[#333] font-bold text-[14px] ff_poppins pt-[7px]">
@@ -83,7 +83,7 @@ const SatisfiedClients = () => {
                 data-aos-easing="ease-in-sine"
               >
                 <p className="ff_poppins text-[16px] font-normal text-[#333] pb-[5px]">
-                  Neya from Goa
+                  klyan from Gujarat
                 </p>
                 <Stars />
                 <h6 className=" text-[#333] font-bold text-[14px] ff_poppins pt-[7px]">
@@ -104,14 +104,14 @@ const SatisfiedClients = () => {
               >
                 <div className="relative cursor-pointer bg-[#C4C4C4] rounded-[15px] w-full max-w-[410px] py-[18px] ps-6">
                   <p className="ff_poppins text-[16px] font-normal text-[#333] pb-[5px]">
-                    Neya from Goa
+                    Ankit from MP
                   </p>
                   <Stars />
                   <h6 className=" text-[#333] font-bold text-[14px] ff_poppins pt-[7px]">
                     Best service
                   </h6>
                   <p className=" text-[14px] ff_poppins font-normal">
-                    Good material, Thank you.
+                    Good deal and very wonderful service thank you.
                   </p>
                   <div className="top-1/3 right-[-23px] absolute w-0 h-0 border-t-[20px] border-solid border-t-transparent border-b-[20px] border-b-transparent border-l-[40px] border-l-[#C4C4C4]"></div>
                 </div>
@@ -123,14 +123,14 @@ const SatisfiedClients = () => {
                 data-aos-easing="ease-in-sine"
               >
                 <p className="ff_poppins text-[16px] font-normal text-[#333] pb-[5px]">
-                  Neya from Goa
+                  Sushant from Mumbai
                 </p>
                 <Stars />
                 <h6 className=" text-[#333] font-bold text-[14px] ff_poppins pt-[7px]">
                   Best service
                 </h6>
                 <p className=" text-[14px] ff_poppins font-normal">
-                  Good material, Thank you.
+                  Good deal and very wonderful service thank you.
                 </p>
                 <div className="top-1/3 right-[-23px] absolute w-0 h-0 border-t-[20px] border-solid border-t-transparent border-b-[20px] border-b-transparent border-l-[40px] border-l-[#C4C4C4]"></div>
               </div>
