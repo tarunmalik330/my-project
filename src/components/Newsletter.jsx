@@ -13,7 +13,7 @@ const Newsletter = () => {
               Subscribe to our newsletter for daily/weekly update of our
               products and services.
             </p>
-            <div className="flex justify-center items-center mt-9 gap-5 w-full">
+            <div className="flex sm:flex-row flex-col justify-center items-center mt-9 gap-5 w-full">
               <div className="bg-clip-padding bg-gradient-to-b from-[#FD749B] to-[#281AC8] p-[1px] rounded-[100px] w-full max-w-[420px]">
                 <input
                   type="text"
