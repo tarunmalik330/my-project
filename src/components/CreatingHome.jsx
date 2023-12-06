@@ -22,8 +22,8 @@ const CreatingHome = () => {
             add Link{" "}
           </p>
         </div>
-        <div className="container mx-auto px-6 xl:px-0 pt-[180px] pb-[45px]">
-          <div className="xl:flex items-center justify-between">
+        <div className="container mx-auto px-6 xl:px-12 sm:pt-[180px] pt-[80px] pb-[45px]">
+          <div className="xl:flex justify-between">
             <div
               className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:mb-0 mb-6"
               data-aos="fade-right"
@@ -34,9 +34,9 @@ const CreatingHome = () => {
                 className="rounded-[24px] w-full max-w-[405px]"
               />
             </div>
-            <div className="xl:ml-auto text-center">
+            <div className="text-center flex flex-col justify-center ml-auto">
               <h4
-                className="text-white 2xl:text-[42px] xl:text-[32px] text-[22px] font-bold tracking-[3px]"
+                className="text-white 2xl:text-[42px] xl:text-[32px] text-[22px] font-bold tracking-[3px] sm:me-20"
                 data-aos="fade-down"
               >
                 Creating a Warm,
@@ -49,7 +49,7 @@ const CreatingHome = () => {
               </h3>
             </div>
             <div
-              className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:-translate-y-20 ml-auto xl:mt-0 mt-6"
+              className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:translate-y-[-22px] xl:mt-0 mt-6 ml-auto"
               data-aos="fade-left"
             >
               <img

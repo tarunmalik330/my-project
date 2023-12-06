@@ -1,6 +1,10 @@
 export const Google = () => {
   return (
-    <a href="https://accounts.google.com/signin" target="blank">
+    <a
+      className=" hover:translate-y-[-6px] transition-transform duration-300"
+      href="https://accounts.google.com/signin"
+      target="blank"
+    >
       <svg
         width="14"
         height="9"
@@ -21,7 +25,11 @@ export const Google = () => {
 };
 export const Facebook = () => {
   return (
-    <a href="https://www.facebook.com/" target="blank">
+    <a
+      className="hover:translate-y-[-6px] transition-transform duration-300"
+      href="https://www.facebook.com/"
+      target="blank"
+    >
       <svg
         width="12"
         height="13"
@@ -42,7 +50,10 @@ export const Facebook = () => {
 };
 export const Twitter = () => {
   return (
-    <a href="">
+    <a
+      className="hover:translate-y-[-6px] transition-transform duration-300"
+      href=""
+    >
       <svg
         width="13"
         height="11"
@@ -63,7 +74,11 @@ export const Twitter = () => {
 };
 export const Instagrem = () => {
   return (
-    <a href="https://www.instagram.com/accounts/login/" target="blank">
+    <a
+      className="hover:translate-y-[-6px] transition-transform duration-300"
+      href="https://www.instagram.com/accounts/login/"
+      target="blank"
+    >
       <svg
         width="12"
         height="13"
