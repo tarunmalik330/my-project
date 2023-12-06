@@ -43,7 +43,7 @@ const Header = () => {
               <ul
                 className={`${
                   show
-                    ? "flex flex-row gap-8 items-center max-lg:fixed max-lg:w-full bottom-0 max-lg:z-[5] max-lg:min-h-screen max-lg:left-[-100%] max-lg:h-full gap-5 max-lg:w-full transition-all duration-300 ease-linear"
+                    ? "flex flex-row items-center max-lg:fixed bottom-0 max-lg:z-[5] max-lg:min-h-screen max-lg:left-[-100%] max-lg:h-full gap-5 max-lg:w-full transition-all duration-300 ease-linear"
                     : "max-lg:bg-[#021A38FA] max-lg:flex-col max-lg:fixed text-black max-lg:z-[5] max-lg:left-[0] max-lg:h-full bottom-0 gap-5 max-lg:w-full max-lg:min-h-screen flex items-center justify-center"
                 }`}
               >
@@ -55,7 +55,7 @@ const Header = () => {
                     Home
                   </a>
                 </li>
-                <li>
+                <li onClick={() => setshow(!show)}>
                   <a
                     className=" text-white ff_poppins font-bold after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:start-2/4 after:rounded-sm hover:after:w-full hover:after:left-0 transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear"
                     href="#About"
@@ -63,7 +63,7 @@ const Header = () => {
                     About Us
                   </a>
                 </li>
-                <li>
+                <li onClick={() => setshow(!show)}>
                   <a
                     className=" text-white ff_poppins font-bold after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:start-2/4 after:rounded-sm hover:after:w-full hover:after:left-0 transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear"
                     href="#Gallery"
@@ -71,7 +71,7 @@ const Header = () => {
                     Gallery
                   </a>
                 </li>
-                <li>
+                <li onClick={() => setshow(!show)}>
                   <a
                     className="text-white uppercase ff_poppins font-bold after:absolute relative after:bottom-[-4px] after:w-0 after:h-[3px] after:bg-gradient-to-b from-[#CC33D9] to-[#281AC8] after:start-2/4 after:rounded-sm hover:after:w-full hover:after:left-0 transition-all duration-400 ease-linear after:transition-all after:duration-300 after:ease-linear"
                     href="#Contact"
