@@ -112,7 +112,7 @@ const Header = () => {
         <div className="container mx-auto flex flex-col items-center justify-center lg:pt-[150px] pt-[100px] lg:pb-[500px] sm:pb-[461px] pb-[300px]">
           <div className="px-6 sm:px-0">
             <h1
-              className="text-white text-5xl ff_poppins font-semibold pb-4"
+              className="text-white sm:text-5xl text-[31px] ff_poppins font-semibold pb-4"
               data-aos="fade-right"
             >
               We Make Your Home <br /> More Beautiful
