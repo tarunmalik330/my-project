@@ -33,7 +33,7 @@ const Header = () => {
           data-aos="fade-left"
         />
         <div className="container mx-auto">
-          <nav className="flex justify-between items-center pe-11">
+          <nav className="flex justify-between items-center pe-12">
             <img
               src={Logo}
               alt="Logo"
