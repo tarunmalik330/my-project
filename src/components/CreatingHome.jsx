@@ -25,13 +25,13 @@ const CreatingHome = () => {
         <div className="container mx-auto px-6 xl:px-12 sm:pt-[180px] pt-[45px] pb-[45px]">
           <div className="xl:flex justify-between">
             <div
-              className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:mb-0 mb-6"
+              className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:mb-0 mb-6 overflow-hidden"
               data-aos="fade-right"
             >
               <img
                 src={BedroomDesign}
                 alt="BedroomDesign"
-                className="rounded-[24px] w-full max-w-[405px]"
+                className="rounded-[24px] w-full max-w-[405px] hover:scale-[1.01] transition-all duration-500 ease-linear"
               />
             </div>
             <div className="text-center flex flex-col justify-center ml-auto">
@@ -49,13 +49,13 @@ const CreatingHome = () => {
               </h3>
             </div>
             <div
-              className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:translate-y-[-22px] xl:mt-0 mt-6 ml-auto"
+              className="w-full h-full bg-white p-2 rounded-[24px] max-w-[405px] xl:translate-y-[-22px] xl:mt-0 mt-6 ml-auto overflow-hidden transition-all duration-300 ease-linear"
               data-aos="fade-left"
             >
               <img
                 src={WoodenHome}
                 alt="WoodenHome"
-                className="rounded-[24px] w-full max-w-[400px]"
+                className="rounded-[24px] w-full max-w-[400px] hover:scale-[1.01] transition-all duration-500 ease-linear"
               />
             </div>
           </div>
