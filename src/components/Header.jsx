@@ -33,7 +33,7 @@ const Header = () => {
           data-aos="fade-left"
         />
         <div className="container mx-auto">
-          <nav className="flex justify-between items-center pe-12">
+          <nav className="flex justify-between items-center sm:pe-12 pe-6">
             <img
               src={Logo}
               alt="Logo"
@@ -87,22 +87,22 @@ const Header = () => {
                 <span
                   className={`${
                     show
-                      ? " bg-white w-full h-[4px] transition-all duration-300 ease-linear"
-                      : "bg-white w-full h-[4px] transition-all duration-300 ease-linear rotate-[50deg] translate-y-[26px]"
+                      ? " bg-white w-full h-[4px] transition-all duration-300 ease-linear rounded-3xl"
+                      : "bg-white w-full h-[4px] transition-all duration-300 ease-linear rounded-3xl rotate-[50deg] translate-y-[26px]"
                   }`}
                 ></span>
                 <span
                   className={`${
                     show
-                      ? " bg-white w-full h-[4px] transition-all duration-300 ease-linear"
+                      ? " bg-white w-full h-[4px] transition-all duration-300 ease-linear rounded-3xl"
                       : "opacity-0"
                   }`}
                 ></span>
                 <span
                   className={`${
                     show
-                      ? " bg-white w-full h-[4px] transition-all duration-300 ease-linear"
-                      : "bg-white w-full h-[4px] transition-all duration-300 ease-linear rotate-[-50deg] translate-y-[50%]"
+                      ? " bg-white w-full h-[4px] transition-all duration-300 ease-linear rounded-3xl"
+                      : "bg-white w-full h-[4px] transition-all duration-300 ease-linear rounded-3xl rotate-[-50deg] translate-y-[50%]"
                   }`}
                 ></span>
               </div>

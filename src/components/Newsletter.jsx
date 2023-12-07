@@ -9,7 +9,7 @@ const Newsletter = () => {
             <h2 className="font-['poppins'] text-center bg-clip-text text-transparent bg-gradient-to-b from-[#FD749B] to-[#281AC8] sm:text-[28px] text-[25px] font-bold leading-[232.143% ] pb-[37px]">
               Subscribe our newsletter
             </h2>
-            <p className="font-['poppins'] text-[#333] leading-[250%] font-normal text-center lg:max-w-[378px] pb-[23px]">
+            <p className="font-['poppins'] text-[#333] leading-[250%] font-normal text-center lg:max-w-[378px] sm:pb-[23px]">
               Subscribe to our newsletter for daily/weekly update of our
               products and services.
             </p>

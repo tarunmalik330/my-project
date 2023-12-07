@@ -22,7 +22,7 @@ const Gallery = () => {
           <div className=" flex flex-row flex-wrap items-center">
             <div className="lg:w-3/6 w-full flex flex-col items-center md:gap-36 gap-12">
               <div data-aos="zoom-in-right">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden cursor-pointer">
                   <img
                     src={LivingRoom}
                     alt="LivingRoom"
@@ -34,7 +34,7 @@ const Gallery = () => {
                 </h4>
               </div>
               <div data-aos="zoom-in-right">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden cursor-pointer">
                   <img
                     src={Kitchen}
                     alt="Kitchen"
@@ -51,7 +51,7 @@ const Gallery = () => {
                 className="md:pt-[112px] pt-[48px] lg:pt-0"
                 data-aos="zoom-in-left"
               >
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden cursor-pointer">
                   <img
                     src={Office}
                     alt="Office"
@@ -63,7 +63,7 @@ const Gallery = () => {
                 </h4>
               </div>
               <div data-aos="zoom-in-left">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden cursor-pointer">
                   <img
                     src={BathImg}
                     alt="BathImg"
@@ -75,7 +75,7 @@ const Gallery = () => {
                 </h4>
               </div>
               <div data-aos="zoom-in-left">
-                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden">
+                <div className="rounded-[16px] p-[8px] bg-gradient-to-tr from-[#CC33D9] to-[#2f245c] overflow-hidden cursor-pointer">
                   <img
                     src={BedRoom}
                     alt="BedRoom"
